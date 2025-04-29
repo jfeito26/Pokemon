@@ -8,10 +8,10 @@ public class Wizard : Characters
     private float damageMultiplier = 20;
     public Wizard(string name) : base()
     {
-        this.name = "Wizard";
+        this.name = "wizard";
     }
 
-    public Wizard(string name, float damageMultiplayer) : base(100, "Wizard", Resources.Load<Sprite>("Sprites/nombreSrpite"), 20)
+    public Wizard(string name, float damageMultiplayer) : base(100, "wizard", Resources.Load<Sprite>("Sprites/nombreSrpite"), 20)
     {
         this.damageMultiplier = damageMultiplayer; ;
     }

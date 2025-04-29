@@ -6,10 +6,10 @@ public class Goblin : Characters
 {
     public Goblin(string name) : base()
     {
-        this.name = "Goblin";
+        this.name = "goblin";
     }
 
-    public Goblin(string name, float damage) : base(100, "Goblin", Resources.Load<Sprite>("Sprites/nombreSrpite"), 10)
+    public Goblin(string name, float damage) : base(100, "goblin", Resources.Load<Sprite>("Sprites/nombreSrpite"), 10)
     {
 
     }
