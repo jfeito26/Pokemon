@@ -5,7 +5,7 @@ using UnityEngine;
 public class CombatEncounter : MonoBehaviour
 {
     [Header("Configuración de Combate")]
-    [SerializeField] private Characters enemy; //desde el inspector
+    [SerializeField] public Characters enemy; //desde el inspector
     [SerializeField] private int minEnemies = 1;
     [SerializeField] private int maxEnemies = 3;
 

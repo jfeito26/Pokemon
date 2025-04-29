@@ -39,7 +39,7 @@ public class BushGenerator : MonoBehaviour
                 GameObject bush = Instantiate(bushPrefab, position, Quaternion.identity, transform);
                 spawnedBushes.Add(bush);
 
-                // Aleatoriamente añadimos componente de combate
+                // Aleatoriamente añadimos  un componente de combate
                 if (Random.value < combatChance)
                 {
                     bush.AddComponent<BushCombat>(); // Asume que tenemos este componente
